@@ -23,16 +23,16 @@
     padding-right: 5px;
     }
 }
-.como-citar{
+
+.como-citar {
     font-family: "degular-text", sans-serif;
     font-weight: 400;
     font-size: 10px;
-    line-height: 1.2;
     text-align: right;
     grid-column: 3;
     word-break: break-word;
-	margin-top: 5px;
-	margin-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
 }
 
 .titulo-principal {
@@ -75,6 +75,17 @@
     margin-bottom: 25px;
     line-height: 1.6em;
     word-break:initial;
+}
+
+.sin-recibido {
+    font-family: "neue-haas-unica", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-align-last: left;
+    margin-top: 50px;
 }
 
 .titulos {
@@ -186,6 +197,13 @@ img.logo{
     padding-top: 20px;
 }
 
+.reticula-2{
+    display: grid;
+    grid-template-columns: 0.6fr 0.6fr 0.6fr;
+    column-gap: 20px;
+    padding-top: 20px;
+}
+
 a {
     word-break: break-word;
     padding: 0px;
@@ -237,6 +255,9 @@ hr{
     }
     .citaciones{
     text-align: left;
+    }
+    .sin-recibido{
+        text-align: left;
     }
     .max-575{
         display: block;
