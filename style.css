@@ -1,37 +1,16 @@
 @import url("https://use.typekit.net/uzy7ztd.css");
 
-
-@media (min-width: 992px) {
-body {
-max-width: 768px;
-margin: auto;
-}
-}
-@media (min-width: 768px) and (max-width: 991px) {
-body {
-max-width: 500px;
-margin: auto;
-}
-}
-@media (max-width: 767px) {
-body {
-padding-left: 5px;
-padding-right: 5px;
-}
-
-}
-
-
 .como-citar{
     font-family: "degular-text", sans-serif;
     font-weight: 400;
     font-size: 10px;
     line-height: 1.2;
     text-align: right;
-    margin-top: 10px;
+    grid-column: 3;
+    word-break: break-word;
 }
 
-.titulo-español {
+.titulo-principal {
     font-family: "neue-haas-grotesk-display", sans-serif;
    overflow-wrap: break-word;
     line-height: 45px;
@@ -59,7 +38,7 @@ padding-right: 5px;
     text-align: left;
     margin-bottom: 2px;
     margin-top: 2px;
-
+    line-height: 1.2em;
 }
 
 .recibido-aceptado{
@@ -68,63 +47,9 @@ padding-right: 5px;
     font-size: 14px;
     text-align: right;
     margin-top: 50px;
-    margin-bottom: 10px;
-}
-
-.resumen-español {
-    font-family: "neue-haas-unica", sans-serif;
-    font-size: 16px;
-    font-weight: 400px;
-    line-height: 1.6;
-    margin-bottom: 10px;
-    text-align: justify;
-    text-align-last: left;
-    margin-top: 0px;
-}
-
-.palabras-clave-español {
-    font-family: "neue-haas-unica", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.6;
-    margin-bottom: 10px;
-    margin-top: 0px;
-    text-align: left; 
-}
-
-.titulo-ingles {
-    color: #9d9d9c;
-    font-family: "neue-haas-grotesk-display", sans-serif;
-    font-size: 26px;
-    line-height: 29px;
-    font-weight: 400;
-    text-align: left;  
-    margin-top: 30px;
-    margin-bottom: 15px;
-}
-
-.resumen-ingles {
-    color: #9d9d9c;
-    font-family: "neue-haas-unica", sans-serif;
-    font-size: 16px; 
-    font-weight: 400;
-    line-height: 1.6;
-    margin-bottom: 2%;
-    text-align: justify;
-    text-align-last: left; 
-    margin-top: 0px; 
-}
-
-.palabras-clave-ingles {
-    color: #9d9d9c;
-    font-family: "neue-haas-unica", sans-serif;
-    font-size: 16px;
-    font-weight: 400px;
-    line-height: 1.6;
-    margin-bottom: 30px;
-    margin-top: 0;
-    text-align: left;
- 
+    margin-bottom: 25px;
+    line-height: 1.6em;
+    word-break:initial;
 }
 
 .titulos {
@@ -132,7 +57,7 @@ padding-right: 5px;
     font-size: 20px;
     font-weight: 500;
     font-variant: small-caps;  
-    line-height: 1.6px;
+    line-height: 1.2rem;
     margin-bottom: 25px;
     margin-top: 35px;
     text-align: left; 
@@ -142,7 +67,7 @@ padding-right: 5px;
 	font-family:"neue-haas-unica", sans-serif;
 	font-size:16px;
 	font-weight: 500;
-	line-height:1.6;
+	line-height:1.2em;
 	text-align:left;
 	margin-bottom: 10px;
 }
@@ -151,18 +76,18 @@ padding-right: 5px;
     font-size: 16px;
     font-weight: 400px;
     line-height: 1.6;
-    margin-bottom: 2%;
+    margin-bottom: 20px;
     text-align: justify;
     text-align-last: left;
 }
 
-.Citaciones-cuerpo-de-texto {
+.citaciones {
     font-family: "neue-haas-unica", sans-serif;
     font-size: 14px; 
     font-weight: 400px;
-    line-height: 1.6;
+    line-height: 1.6em;
     margin-bottom: 2%;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: 0;
     text-align: justify;
     text-align-last: left; 
@@ -173,9 +98,9 @@ padding-right: 5px;
     font-family: "degular-text", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 1.6;
-    margin-bottom: 15px;
-    margin-top: 5px;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+    margin-top: 10px;
     text-align: center;  
 }
 
@@ -183,21 +108,15 @@ padding-right: 5px;
 font-family: "degular-text", sans-serif;
 font-size: 16px;
 font-weight: 400;
-line-height: 1.4;
+line-height: 1.6em;
 text-align: left;
-}
-
-.mayusculas {
-    font-size: 15px;
-    font-family: "neue-haas-unica", sans-serif;
-    font-weight: 400;
 }
 
 .bibliografia {
     font-family: "degular-text", sans-serif;
     font-size: 16px;
     font-weight: 400px;
-    line-height: 1.6;
+    line-height: 1.6em;
     list-style-position: outside;
     list-style-type: decimal;
     margin-bottom: 1%;
@@ -212,16 +131,13 @@ text-align: left;
     width: auto;
 }
 
-.mayusculas-bibliografia {
-    font-family: "degular-text", sans-serif;
-    font-size: 15px;
-    font-weight: 400px;
-    line-height: 1.6;
-}
-
 .imagen-articulo{
     max-width: 100%;
-    padding-top: 15px;
+
+}
+
+#figura1{
+    text-align: center;
 }
 
 ul{
@@ -234,12 +150,13 @@ ol{
 }
 
 img.logo{
-    max-width: 100%;
+    max-width: 9em;
+    grid-column: 1;
 }
 
 .reticula{
     display: grid;
-    grid-template-columns: 0.6fr 0.5fr 1.5fr;
+    grid-template-columns: 0.6fr 0.6fr 1fr;
     column-gap: 20px;
     padding-top: 20px;
 }
@@ -273,3 +190,49 @@ sup.cuerpo{
     text-align-last: left;
 }
 
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.html{
+    padding-bottom: 30px;
+}
+
+.max-575{
+    display: none;
+}
+
+@media (max-width: 991px){
+    .reticula{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 575px){
+    .reticula{
+        grid-template-columns: 1fr 1fr;
+    }
+    .cuerpo{
+        text-align: left;
+    }
+    .citaciones{
+    text-align: left;
+    }
+    .recibido-aceptado{
+    display: block;
+    }
+    .max-575{
+        display: block;
+    }
+    .cuerpo{
+        margin: auto;
+    }
+    }
+@media (max-width: 420px){
+    .reticula{
+    grid-template-columns: 1fr;
+    }
+    .como-citar{
+    grid-column: 1;
+    }
+}
