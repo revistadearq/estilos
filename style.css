@@ -250,6 +250,9 @@ hr{
     .reticula{
         grid-template-columns: 1fr 1fr;
     }
+	.reticula-2{
+        grid-template-columns: 1fr 1fr;
+    }
     .cuerpo{
         text-align: left;
     }
@@ -262,12 +265,12 @@ hr{
     .max-575{
         display: block;
     }
-    .cuerpo{
-        margin: auto;
-    }
     }
 @media (max-width: 420px){
     .reticula{
+    grid-template-columns: 1fr;
+    }
+   .reticula-2{
     grid-template-columns: 1fr;
     }
     .como-citar{
