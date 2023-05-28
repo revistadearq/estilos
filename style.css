@@ -31,6 +31,8 @@
     text-align: right;
     grid-column: 3;
     word-break: break-word;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .titulo-principal {
