@@ -33,6 +33,7 @@
     word-break: break-word;
     margin-top: 5px;
     margin-bottom: 0px;
+    
 }
 
 .titulo-principal {
@@ -140,15 +141,6 @@
     text-align: center;  
 }
 
-.pie-imagen-qr{
-    font-family: "degular-text", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.6em;
-    text-align: left;  
-    margin: 0px;
-}
-
 .pie-texto {
 font-family: "degular-text", sans-serif;
 font-size: 16px;
@@ -186,11 +178,6 @@ img.logo{
     grid-column: 1;
 }
 
-.imagen-qr{
-    max-width: 8em;
-
-}
-
 .imagen-reticula{
  max-width: 100%;
 }
@@ -226,15 +213,6 @@ ol{
     grid-template-columns: 0.6fr 0.6fr 0.6fr;
     column-gap: 20px;
     padding-top: 20px;
-}
-
-.reticula-qr{
-    display: grid;
-    grid-template-columns: 0.4fr 1.7fr;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
-
 }
 
 .reticula-imagen{
