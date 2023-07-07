@@ -182,6 +182,7 @@ img.logo{
  max-width: 100%;
 }
 
+
 #figura1{
     text-align: center;
 }
@@ -213,6 +214,38 @@ ol{
     grid-template-columns: 0.6fr 0.6fr 0.6fr;
     column-gap: 20px;
     padding-top: 20px;
+}
+
+.reticula-3{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.4fr 0.6fr ;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding-top: 30px;
+}
+
+
+.anchox2{
+    max-width: 100%;
+    grid-column: span 2;
+}
+
+.anchox3{
+    max-width: 100%;
+    grid-column: span 3;
+}
+
+.altox2{
+    max-width: 100%;
+    grid-row: span 2;
+}
+
+.altoxanchox1{
+    max-width: 100%;
+    grid-row: span 1;
+    grid-column: span 1;
+    grid-column: 3;
 }
 
 .reticula-imagen{
@@ -265,6 +298,38 @@ hr{
     display: none;
 }
 
+.boton{
+    font-family: "neue-haas-unica", sans-serif;
+    background-color:black; /* Black */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.seccion-boton{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+a.boton{
+    font-family: "neue-haas-unica", sans-serif;
+    background-color:black; /* Black */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 0.5px; 
+}
+
 @media (max-width: 575px){
     .reticula{
         grid-template-columns: 1fr 1fr;
@@ -296,4 +361,3 @@ hr{
     grid-column: 1;
     }
 }
-
