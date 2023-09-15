@@ -89,6 +89,17 @@
     margin-top: 50px;
 }
 
+.titulos-sin-recibido {
+    font-family: "neue-haas-unica", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-variant: small-caps;  
+    line-height: 1.2rem;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    text-align: left; 
+}
+
 .titulos {
     font-family: "neue-haas-unica", sans-serif;
     font-size: 20px;
@@ -130,6 +141,17 @@
     text-align-last: left; 
 }
 
+.citaciones-corta {
+    font-family: "neue-haas-unica", sans-serif;
+    font-size: 14px; 
+    font-weight: 400px;
+    line-height: 1.6em;
+    margin-bottom: 25px;
+    margin-left: 320px;
+    margin-top: 50px;
+    text-align: justify;
+    text-align-last: left; 
+}
 
 .pie-imagen {
     font-family: "degular-text", sans-serif;
@@ -170,6 +192,18 @@ text-align: left;
 
 .imagen-articulo{
     max-width: 100%;
+
+}
+
+.imagen-articulo-2{
+    max-width: 100%;
+    margin-top: 35px;
+
+}
+
+.imagen-articulo-3{
+    max-width: 100%;
+    margin-top: 10px;
 
 }
 
@@ -220,6 +254,15 @@ ol{
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr;
     grid-template-rows: 0.5fr 0.4fr 0.6fr ;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding-top: 30px;
+}
+
+.reticula-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:minmax(18);
     column-gap: 30px;
     row-gap: 30px;
     padding-top: 30px;
@@ -328,6 +371,15 @@ a.boton{
     display: inline-block;
     font-size: 16px;
     letter-spacing: 0.5px; 
+}
+
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items:flex-start;
+    gap: 10px 20px;
 }
 
 @media (max-width: 575px){
