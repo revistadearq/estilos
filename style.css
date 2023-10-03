@@ -373,6 +373,11 @@ a.boton{
     letter-spacing: 0.5px; 
 }
 
+@media (max-width: 991px){
+    .citaciones-corta{
+        margin-left: 150px;
+    }
+    }
 
 @media (max-width: 575px){
     .reticula{
@@ -393,7 +398,11 @@ a.boton{
     .max-575{
         display: block;
     }
+    .citaciones-corta{
+        margin-left: 50px;
     }
+    }
+
 @media (max-width: 420px){
     .reticula{
     grid-template-columns: 1fr;
@@ -403,5 +412,8 @@ a.boton{
     }
     .como-citar{
     grid-column: 1;
+    }
+    .citaciones-corta{
+        margin-left: 50px;
     }
 }
