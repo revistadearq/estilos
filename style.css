@@ -315,6 +315,13 @@ sup.notas {
     padding-top: 0px;
 }
 
+sup.numeros {
+    font-family: "degular-text", sans-serif;
+    font-size: 70%;
+    line-height: 0%;
+    padding-top: 0px;
+}
+
 sup.degular {
     font-family: "degular-text", sans-serif;
 	font-size: 10px;
