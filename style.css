@@ -226,14 +226,27 @@ img.logo{
 
 #imagen-historica{
     max-width: 500px;
-
 }
 
 
 ul{
-padding-left: 0px;
-list-style-type: none;
+    padding-left: 0px;
+    list-style-type: none;
 }
+
+ul.a{
+    font-family: "neue-haas-unica", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+    text-align: left;
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 26px;
+}
+
+
 
 ol{
     padding-left: 26px;
