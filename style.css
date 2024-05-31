@@ -121,6 +121,7 @@
 	line-height:1.2em;
 	text-align:left;
 	margin-bottom: 10px;
+    margin-top: 35px;
 }
 .cuerpo {
     font-family: "neue-haas-unica", sans-serif;
@@ -210,6 +211,13 @@ text-align: left;
 
 }
 
+.imagen-articulo-tamaño{
+    display: block;
+    margin: auto;
+    max-width: 60%;
+text-align: center;
+}
+
 img.logo{
     max-width: 9em;
     grid-column: 1;
@@ -246,10 +254,21 @@ ul.a{
     padding-left: 26px;
 }
 
-
-
-ol{
-    padding-left: 26px;
+.ordered{
+    font-family: "neue-haas-unica", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+    list-style-type: decimal;
+    list-style-position: outside;
+    margin-left: 0px;
+    page-break-after: auto;
+    page-break-before: auto;
+    text-align: left;
+    text-indent: 0px; 
+    left: auto;
+    width: auto;
 }
 
 .reticula{
@@ -383,6 +402,7 @@ hr{
     padding-bottom: 50px;
 }
 
+
 a.boton{
     font-family: "neue-haas-unica", sans-serif;
     background-color:black; /* Black */
@@ -395,6 +415,50 @@ a.boton{
     font-size: 16px;
     letter-spacing: 0.5px; 
 }
+
+
+
+ /* Toggle List */
+
+ 
+ details {
+    font-family: "neue-haas-unica", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-align-last: left;
+
+    padding: 0.5em 0.5em 0;
+  }
+  
+  summary {
+	font-family:"neue-haas-unica", sans-serif;
+	font-size:16px;
+	font-weight: 500;
+	line-height:1.2em;
+	text-align:left;
+	margin-bottom: 10px;
+    margin-top: 35px;
+
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+  }
+  
+  details[open] {
+    padding: 0.5em;
+  }
+  
+  details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+  }
+
+   /* Toggle List */
+  
+
 
 @media (max-width: 991px){
     .citaciones-corta{
