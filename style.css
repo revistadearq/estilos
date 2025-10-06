@@ -133,6 +133,17 @@
     text-align-last: left;
 }
 
+.cuerpo-gris {
+    font-family: "neue-haas-unica", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-align-last: left;
+    color: grey;
+}
+
 .citaciones {
     font-family: "neue-haas-unica", sans-serif;
     font-size: 14px; 
@@ -212,6 +223,7 @@ text-align: left;
     left: auto;
     width: auto;
 }
+
 .imagen-articulo{
     max-width: 100%;
 
